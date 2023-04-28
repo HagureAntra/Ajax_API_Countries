@@ -1,23 +1,70 @@
-# Ajax_API_Countries
+# Getting Started with Create React App
 
-First Ajax project where I used this link: https://restcountries.com/ to pull all the data from. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Those small icon images are html code actually-there is a Microsoft Word file added that includes links I used to find specific emojies. 
-It is possible to convert UTF-8 unicode emoji into &# Html code. Goggle UTF to HTMl emoji converter and it will come up-there are several websites that convert them.
+## Available Scripts
 
-All the classes added to html code that are pasted in JavaScript file can be used for CSS. 
+In the project directory, you can run:
 
-If you wonder how I aligned cards side by side, it was goood old "float-left" property. 
+### `npm start`
 
-Setting responsivness on the most popular devices,was a pain to me-Samsung Galaxy Fold (280px 653 px), Surface Duo (540px 720px).
-Media querries took me a long time because portrait and landscape positions have different screen sizing. I changed the header background and text color to understand which screen and position i have done and, which one needs a separate querry.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-I am planning to do more small Ajax projects - API called when button is clicked, form is submitted and auto image generator.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Even though there are other, faster ways to fetch API (rapidAPI, Fetchapi, Axios), I find Ajax syntax easy to understand and work with.
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
